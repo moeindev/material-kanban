@@ -1,0 +1,13 @@
+
+/* background: adjust-hue($base-color, $offset + $spectrum / $num-colors * $i); */
+@mixin random-bgr(){
+  background: rgb(random(255), random(255), random(255));
+}
+
+$fonts: Roboto;
+
+.board-style {
+  border-radius: 10%;
+  font-family: $fonts;
+  border: 1px solid chocolate;
+}

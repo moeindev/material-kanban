@@ -1,1 +1,7 @@
-<p>board-item works!</p>
+<mat-card
+  class="board"
+  (click)="onSelect(board)"
+  (dblclick)="onUpdate(board)">
+  <mat-card-title> {{ board.name }} </mat-card-title>
+  <mat-card-footer> <mat-icon (click)="onDelete(board)">delete</mat-icon> </mat-card-footer>
+</mat-card>
