@@ -1,7 +1,17 @@
-<mat-card
-  class="board"
-  (click)="onSelect(board)"
-  (dblclick)="onUpdate(board)">
-  <mat-card-title> {{ board.name }} </mat-card-title>
-  <mat-card-footer> <mat-icon (click)="onDelete(board)">delete</mat-icon> </mat-card-footer>
-</mat-card>
+<div class="card-div">
+  <mat-card
+    class="board-style"
+    (dblclick)="onUpdate(board)">
+    <mat-card-title>
+      <div class="card-div">
+      <span (click)="onSelect(board)" >{{ board.name }}</span>
+    </div>
+    </mat-card-title>
+
+    <mat-card-footer>
+      <div class="card-div">
+        <mat-icon (click)="onDelete(board)">delete</mat-icon>
+      </div>
+    </mat-card-footer>
+  </mat-card>
+</div>

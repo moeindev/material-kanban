@@ -1,13 +1,24 @@
 
-/* background: adjust-hue($base-color, $offset + $spectrum / $num-colors * $i); */
-@mixin random-bgr(){
-  background: rgb(random(255), random(255), random(255));
+$fonts: Roboto;
+.card-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-$fonts: Roboto;
-
 .board-style {
-  border-radius: 10%;
+  border-radius: 5px;
   font-family: $fonts;
-  border: 1px solid chocolate;
+  margin: 5px auto;
+  width: 185px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mat-card-title {
+  align-content: center;
+  alignment: center;
+}
+.board-spacer {
+  flex: 1 1 auto;
 }

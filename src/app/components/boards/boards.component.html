@@ -1,1 +1,15 @@
-<p>boards works!</p>
+<section>
+  <button mat-raised-button color="accent" class="add-board-btn">Add Board</button>
+</section>
+
+<mat-divider></mat-divider>
+
+<section>
+  <app-board-item
+    *ngFor="let board of boards"
+    [board]="board"
+    (updateBoard)="onUpdate(board)"
+    (deleteBoard)="onDelete(board)"
+    (selectBoard)="onSelect(board)"
+  ></app-board-item>
+</section>
