@@ -7,11 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
+import { BoardsComponent } from './components/boards/boards.component';
+import { BoardItemComponent } from './components/board-item/board-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    BoardsComponent,
+    BoardItemComponent
   ],
   imports: [
     BrowserModule,
