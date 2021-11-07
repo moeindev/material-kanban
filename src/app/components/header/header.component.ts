@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  headerTitle: String = 'Material kanban Board';
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onHamMenu() {
+    
+  }
 }
