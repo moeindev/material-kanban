@@ -1,0 +1,167 @@
+{
+  "boards" : [
+    {
+      "id": 1,
+      "name": "My board"
+    },
+    {
+      "id": 2,
+      "name": "My board 1"
+    },
+    {
+      "id": 3,
+      "name": "My board 2"
+    },
+    {
+      "id": 4,
+      "name": "My board 3"
+    }
+  ],
+
+  "columns" : [
+    {
+      "id": 1,
+      "boardId": 1,
+      "name": "column 1"
+    },
+    {
+      "id": 2,
+      "boardId": 1,
+      "name": "column 2"
+    },
+    {
+      "id": 3,
+      "boardId": 1,
+      "name": "column 3"
+    },
+    {
+      "id": 4,
+      "boardId": 2,
+      "name": "column 1"
+    },
+    {
+      "id": 5,
+      "boardId": 2,
+      "name": "column 2"
+    },
+    {
+      "id": 6,
+      "boardId": 2,
+      "name": "column 3"
+    },
+    {
+      "id": 7,
+      "boardId": 3,
+      "name": "column 1"
+    },
+    {
+      "id": 8,
+      "boardId": 3,
+      "name": "column 2"
+    },
+    {
+      "id": 9,
+      "boardId": 3,
+      "name": "column 3"
+    }
+  ],
+
+  "cards" : [
+    {
+      "id": 1,
+      "columnId": 1,
+      "title": "Title card cdscs",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 2,
+      "columnId": 2,
+      "title": "Title card 2 dcscs ",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 3,
+      "columnId": 3,
+      "title": "Title card 3 dbcdhcs",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 3,
+      "columnId": 2,
+      "title": "Title card 2 gcvschvdschgshvchsva",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 4,
+      "columnId": 3,
+      "title": "Title card 2 dhbhhscvsvdhhsv bdhgsvcgs",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 5,
+      "columnId": 4,
+      "title": "Title card 2 kaljasxagvaghvsgvahgvhasvx",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 6,
+      "columnId": 4,
+      "title": "Title card 2 dchgsvcgvsvhgs cgdsvgcvsh",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 7,
+      "columnId": 5,
+      "title": "Title card 2 dbgvcsvhvdsgvhdsvvcsviqdgycvhjgvdhvdjh",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 8,
+      "columnId": 5,
+      "title": "Title card ncdsjhchjsbcbakxal 2121  121 2",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 9,
+      "columnId": 6,
+      "title": "Title card 2 chdgsvhcvscd bhbxahvhva",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 10,
+      "columnId": 7,
+      "title": "Title card 2 dbhsgvgsc6766tcdgv",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 11,
+      "columnId": 8,
+      "title": "Title card 2 bdcsvchgvhc bcdhsvcgsgcv",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 12,
+      "columnId": 9,
+      "title": "Title card 2 hgcdsgvsvdcgv 222",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 13,
+      "columnId": 9,
+      "title": "Title card 2 dcshvdsvh bcdh",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 14,
+      "columnId": 9,
+      "title": "Title card 226126515 bcdhgvdv",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    },
+    {
+      "id": 15,
+      "columnId": 8,
+      "title": "Title card 221876 cdgvsvgdvydsgvvlaxcvgsvhpcd",
+      "description": "Card desc sdhjcbshdbccjh ncdhjsbcshjcbjsbc scnjsjhcbdsjhcbsjhbcsjhbd"
+    }
+  ]
+}
