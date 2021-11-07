@@ -1,12 +1,13 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {Board} from "../../models/board";
+import {BoardItemOperations} from "./BoardItemOperations";
 
 @Component({
   selector: 'app-board-item',
   templateUrl: './board-item.component.html',
   styleUrls: ['./board-item.component.scss']
 })
-export class BoardItemComponent {
+export class BoardItemComponent implements BoardItemOperations {
 
   @Input()
   board!: Board;
